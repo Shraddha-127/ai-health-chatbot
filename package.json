@@ -1,18 +1,15 @@
 {
-  "name": "chatbot-project",
+  "name": "ai-health-chatbot",
   "version": "1.0.0",
-  "type": "module",
-  "description": "AI Chatbot",
+  "description": "An AI-powered health chatbot built with Node.js, Express, MongoDB, Ollama, and Llama 3.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
-    "dotenv": "^17.0.0",
     "express": "^4.22.1",
-    "mongoose": "^9.3.3",
-    "mysql2": "^3.20.0",
-    "openai": "^6.0.0"
+    "mongoose": "^9.3.3"
   }
 }
