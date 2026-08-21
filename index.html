@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Healthcare Chatbot</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Optional: Favicon (add later if needed) -->
+    <!-- <link rel="icon" href="favicon.ico"> -->
+</head>
+<body>
+
+<div class="chat-wrapper">
+    <div class="chat-card">
+
+        <!-- Header -->
+        <header class="chat-header">
+            <h1>🤖 AI Health Assistant</h1>
+            <p class="subtitle">Ask me anything about health 👋</p>
+        </header>
+
+        <!-- Chat Messages -->
+        <main class="chat-box" id="chat-box">
+            <div class="message bot">
+                Hi 👋 I am your AI healthcare assistant. How can I help you today?
+            </div>
+        </main>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="user-input" 
+                placeholder="Type your message..."
+                autocomplete="off"
+            />
+            <button onclick="sendMessage()" aria-label="Send message">➤</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- JS -->
+<script src="chatbot.js"></script>
+
+</body>
+</html>
+ 
